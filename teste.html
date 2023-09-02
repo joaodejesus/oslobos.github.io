@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page Responsiva</title>
+  <!-- Adicione o link para o CSS do Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* Estilos personalizados (opcional) */
+    .header {
+      background-color: #343a40;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .navbar .nav-item {
+      margin-left: 20px;
+    }
+
+    .section {
+      padding: 60px 0;
+      color: #fff;
+      text-align: center;
+    }
+
+    .section:nth-child(odd) {
+      background-color: #007bff;
+    }
+
+    .section:nth-child(even) {
+      background-color: #6c757d;
+    }
+
+    .section img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .footer {
+      background-color: #343a40;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="header">
+    <h1>Título da Página</h1>
+    <nav class="navbar">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contato</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Corpo -->
+  <div class="container-fluid p-0">
+    <!-- Seção 1 -->
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img src="https://via.placeholder.com/400" alt="Imagem de exemplo">
+          </div>
+          <div class="col-md-6">
+            <h2>Seção 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolorem alias consequuntur quasi eaque ab neque, non dolore totam ipsam consequatur sunt nam labore est voluptatem maiores ad vel dicta.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis accusamus nulla quia, tenetur, eos animi assumenda possimus dolorem soluta iure sunt autem. Tempora rerum fuga in assumenda. Odit, ipsum veniam.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção 2 -->
+    <section class="section">
+      <div class="container">
+        <h2>Seção 2</h2>
+        <p>Nulla ullamcorper justo id turpis viverra, eu elementum urna volutpat.</p>
+      </div>
+    </section>
+
+    <!-- Seção 3 -->
+    <section class="section">
+      <div class="container">
+        <h2>Seção 3</h2>
+        <p>Sed vehicula felis nec justo dignissim, auctor euismod velit dictum.</p>
+      </div>
+    </section>
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container">
+      &copy;
+      <?php echo date("Y"); ?> Landing Page Responsiva
+    </div>
+  </footer>
+
+  <!-- Adicione o link para o JavaScript do Bootstrap 5 (opcional) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>

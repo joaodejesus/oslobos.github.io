@@ -1,0 +1,19 @@
+@media (min-width: 576px) { 
+  /* Logo e Menu */
+  header.header {
+    max-width: 75%;
+  }
+  .introducao {
+    grid-template-columns: 1fr 3fr;
+    gap: 5px;
+  }
+  img.rounded-3 {
+    width: 180px;
+    height: auto;
+    margin: 10px;
+  }
+  .introducao h1 {
+    font-size: 1.5em;
+    width: 160px;
+  }
+ }
